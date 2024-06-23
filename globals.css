@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo-image {
+    width: 100px; /* Set a consistent width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the logo fits within the dimensions */
+    padding: 5px; /* Add padding if needed for spacing */
+    background-color: white; /* Optional: Add background color to make logos with transparent backgrounds more visible */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    backdrop-filter: blur(5px);
+}
+
+/*.logo-image{*/
+/*    display: block;*/
+/*    margin: 0 auto 1rem auto; !* Center the logo and add bottom margin *!*/
+/*    width: auto;*/
+/*    height: 40px; !* Adjust the height to ensure uniform size *!*/
+/*}*/
+
+/*.logo-image {*/
+/*    backdrop-filter: blur(5px);*/
+/*    color: #ffffff; !* White *!*/
+/*    padding: 20px;*/
+/*    font-family: Arial, sans-serif;*/
+/*    text-align: center;*/
+/*}*/
